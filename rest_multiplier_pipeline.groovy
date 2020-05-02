@@ -7,4 +7,4 @@ pipelineJob('rest_multiplier_pipeline') {
             scriptPath 'Jenkinsfile'
         }
     }
-}g
+}
