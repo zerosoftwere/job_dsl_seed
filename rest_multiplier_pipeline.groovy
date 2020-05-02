@@ -3,9 +3,9 @@ pipelineJob('rest_multiplier_pipeline') {
         cpsScm {
             scm {
                 github 'zersoftwere/rest_multiplier_api', 'master'
-                scriptFile 'Jenkinsfile'
                 extensions { }
             }
+            scriptFile 'Jenkinsfile'
         }
     }
 }g
